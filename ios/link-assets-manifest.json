@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/ios/HiraginoSans-W3.ttc",
+      "sha1": "8d5a5da201c1e0abea3875d3cba0483eaa12e9c0"
+    },
+    {
+      "path": "assets/fonts/ios/HiraginoSans-W6.ttc",
+      "sha1": "24cbc06de345397aa378d4c77280d7617070de2f"
+    }
+  ]
+}

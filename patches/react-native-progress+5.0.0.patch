@@ -1,0 +1,36 @@
+diff --git a/node_modules/react-native-progress/Circle.js b/node_modules/react-native-progress/Circle.js
+index 79f0a9e..879e3b4 100644
+--- a/node_modules/react-native-progress/Circle.js
++++ b/node_modules/react-native-progress/Circle.js
+@@ -168,6 +168,7 @@ export class ProgressCircle extends Component {
+           )}
+           {border ? (
+             <Arc
++              fill={fill}
+               radius={size / 2}
+               startAngle={0}
+               endAngle={(indeterminate ? endAngle * 2 : 2) * Math.PI}
+diff --git a/node_modules/react-native-progress/Shapes/Arc.js b/node_modules/react-native-progress/Shapes/Arc.js
+index f913a56..1f3f771 100644
+--- a/node_modules/react-native-progress/Shapes/Arc.js
++++ b/node_modules/react-native-progress/Shapes/Arc.js
+@@ -86,6 +86,7 @@ export default class Arc extends Component {
+     return (
+       <Path
+         d={path}
++        fill={'none'}
+         strokeLinecap={strokeCap}
+         strokeWidth={strokeWidth}
+         {...restProps}
+diff --git a/node_modules/react-native-progress/Shapes/Circle.js b/node_modules/react-native-progress/Shapes/Circle.js
+index f681576..ececff8 100644
+--- a/node_modules/react-native-progress/Shapes/Circle.js
++++ b/node_modules/react-native-progress/Shapes/Circle.js
+@@ -39,6 +39,7 @@ export default class Circle extends Component {
+     return (
+       <Path
+         d={path}
++        fill={'none'}
+         strokeLinecap="butt"
+         strokeWidth={strokeWidth}
+         {...restProps}

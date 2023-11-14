@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/android/NotoSansJP-Light.otf",
+      "sha1": "5b301c272844274869b076396d77eb475a2208b2"
+    },
+    {
+      "path": "assets/fonts/android/NotoSansJP-Medium.otf",
+      "sha1": "8370199151f2f11c9b32253093617de64a8ee736"
+    }
+  ]
+}

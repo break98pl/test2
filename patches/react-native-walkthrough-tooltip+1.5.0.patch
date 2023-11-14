@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-native-walkthrough-tooltip/src/tooltip.js b/node_modules/react-native-walkthrough-tooltip/src/tooltip.js
+index 3098692..db3317c 100644
+--- a/node_modules/react-native-walkthrough-tooltip/src/tooltip.js
++++ b/node_modules/react-native-walkthrough-tooltip/src/tooltip.js
+@@ -491,7 +491,9 @@ class Tooltip extends Component {
+         ) : null}
+ 
+         {!useReactNativeModal && showTooltip
+-          ? this.renderContentForTooltip()
++          ? <ModalComponent>
++            {this.renderContentForTooltip()}
++          </ModalComponent>
+           : null}
+       </React.Fragment>
+     );
